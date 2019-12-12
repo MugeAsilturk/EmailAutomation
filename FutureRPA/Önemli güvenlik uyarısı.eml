@@ -1,0 +1,277 @@
+Delivered-To: mugeasilturk@gmail.com
+Received: from mail-sor-f73.google.com (mail-sor-f73.google.com. [209.85.220.73])
+	by mx.google.com with SMTPS id f11sor1654978qvt
+	.26.2019.12.10.00.37.39        for
+	<mugeasilturk@gmail.com>        (Google Transport Security); Tue, 10 Dec 2019
+	00:37:39 -0800 (PST)
+X-Received: by 2002:a0c:d0f1:: with SMTP id
+ b46mr27801236qvh.188.1575967059060; Tue, 10 Dec 2019 00:37:39 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1575967059; cv=none; d=google.com;
+	s=arc-20160816;
+	b=0Kb8ZTtgURIj7eWYjVcoaaTQm/b1b2SLVodEYY1ezJXtuvb68Rg4z0SSoGMhHlBVOJqPJVcMrcU
+	ofPD4KXXMMusTMXdMry/1bQV5+DiXRXQMv+tdiVcVmEAPwXR1gtnhLFMMM3WKILYSztmIK0o54Ukv
+	nACHcniN2uPIJBb/+NPbncFPkS75DHAZQ4dS/GWYAqHQrHKZ3DBP3bxLQMGkLCNS2Yg3+W+FMdT/x
+	4w8wmR+plvvBR4RkRGCBRjkxf6Wq0/U2i8L+BiyDAzYApCaq3iI59mNTbADVx9UYwEQ2pjG+g/7oP
+	iMaQ2M2hLEVJ7T31cl4suVlN/vjA0BpnfPvA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com;
+	s=arc-20160816;
+	h=to:from:subject:message-id:feedback-id:date:mime-version:dkim-signature;
+	bh=7Jq0ypK+Ws2WquPgl9AWGuUa1mrt/1QG8mwLfb0jFk4=;
+	b=afySlo2knrSCCIYZ44Qdg72Hpph7s/xquTlrSQB4hINNyCZPo+4e8Tff50+oXtGRel2mPDzC8Iq
+	2yHXaP2YHY7TctifQ5lGUxsjI7h2MSppWSgFsGhehjtUFs3yE1Oqc8u8uWPWgxmSUmJClJ4gIQHpe
+	UWHwkBw7zgOJsmjssxGb7L+DmAGFxDYsn9vLA8rIP2VRx4lwS47QivxKUrdYOrEykoNqMegrVvCwS
+	XzkP3VaYK/gp7P0MP3Hz2OpmRLvufvJg60F+xdv2HojDnVU5axYdZ5u1LiAttqcCW2wIcjCr1P081
+	jKbCtR9j2ip7ZrIsqDsogKQEqRUNtBMkCAxA==
+ARC-Authentication-Results: i=1; mx.google.com;
+	dkim=pass header.i=@accounts.google.com header.s=20161025 header.b=rmDKwxDm;
+	spf=pass
+	(google.com: domain of 3u1nvxqgtdlglm-pcnjwyaamslrq.emmejc.amkksecyqgjrspiekygj.amk@gaia.bounces.google.com designates 209.85.220.73 as permitted sender)
+	smtp.mailfrom=
+	3U1nvXQgTDLglm-pcnjwYaamslrq.emmejc.amkksecYqgjrspiekYgj.amk@gaia.bounces.google.com;
+	dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=accounts.google.com
+Return-Path: =?us-ascii?q?=3C3U1nvXQgTDLglm-pcnjwYaamslrq=2Eemmejc=2EamkksecYqgjrspiekYgj=2Eamk?=
+ =?us-ascii?q?=40gaia=2Ebounces=2Egoogle=2Ecom=3E?=
+Received-SPF: pass (google.com: domain of
+ =?us-ascii?q?3u1nvxqgtdlglm-pcnjwyaamslrq=2Eemmejc=2Eamkksecyqgjrspiekygj=2Eamk=40?=
+ =?us-ascii?q?gaia=2Ebounces=2Egoogle=2Ecom?= designates 209.85.220.73 as
+ permitted sender) client-ip=209.85.220.73;
+Authentication-Results: mx.google.com;
+	dkim=pass header.i=@accounts.google.com header.s=20161025 header.b=rmDKwxDm;
+	spf=pass
+	(google.com: domain of 3u1nvxqgtdlglm-pcnjwyaamslrq.emmejc.amkksecyqgjrspiekygj.amk@gaia.bounces.google.com designates 209.85.220.73 as permitted sender)
+	smtp.mailfrom=
+	3U1nvXQgTDLglm-pcnjwYaamslrq.emmejc.amkksecYqgjrspiekYgj.amk@gaia.bounces.google.com;
+	dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=accounts.google.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=accounts.google.com;
+	s=20161025; h=mime-version:date:feedback-id:message-id:subject:from:to;
+	bh=7Jq0ypK+Ws2WquPgl9AWGuUa1mrt/1QG8mwLfb0jFk4=;
+	b=rmDKwxDma3kGLDWtvuubdlZqeAzBdsGjTjAp48X94V4bqaknqPI0etOtL5OEfeKfalIFBOCcqWF
+	TjSFcKAC+qvz8Y4HOSWZIvr/kTKo/29dFAd4QN/uMrdAv+eHguOnUqJmbmlBxdYuTCr0eR0SgK9es
+	gvUuT2A0ooIo3BKJey0y+wR5jtDvp898PwcxfCFFEHJnWotPmwWdZSsvfMWXKz71Aw6QxzhFtD3uM
+	SvJNlUP6MrVFhoe+0WWAEjxzcb6TPrLWYLslDk44Lvsdkq/PNVVXqcBM6IfmB74Tf6Dk1OT9ACF/s
+	AyTAnw0IYLyw6m9vVib2aRDcA6DCLt0+A3/A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;       
+ d=1e100.net; s=20161025;       
+ h=x-gm-message-state:mime-version:date:feedback-id:message-id:subject        
+ :from:to;        bh=7Jq0ypK+Ws2WquPgl9AWGuUa1mrt/1QG8mwLfb0jFk4=;       
+ b=AVBUgDfXMt9dvjgE2xdNEpISbqi0csNJy2JhkVxKNVu7JyJGCGESTAatl6xW8wi2VW        
+ QMzhOU+JEvxGvh7b2SDEsxZjvwQ4K0IKCiBgpkJ3Og15fQWLAVnPxwM9kut+8T/YuUGJ        
+ SClpd4SCTTpFc0JiELq68fQsg+A53FAgom7nD+i4an2W8omQ9D3yLmdsH8laAtZfPdPT        
+ 56f+YJ0FEqMDiWvkylCT3kiY7izaIjTi2pjlgQML9wmz+30/PK5IfENoRWkq3NXYl6Us        
+ wQOWtPktppLCfwJjsuYQmXRN4DFxaiUbcr72Fft75HdXbobryfEUHelr3wplFIxQ+GOZ        
+ CUyA==
+X-Gm-Message-State: APjAAAXsIaVGFeGUqtI/yv3c2T0BljkixIoRH+axLvwOFPKr+Tum3OdZ
+	X7WEXnlBieCW4fi1JeThizHwFv3XG77Y
+X-Google-Smtp-Source: =?us-ascii?q?APXvYqziae=2FrR2z7Hn0QvLY5We=2FEoUngthlQky7k0plsRTfub9ximhwlsPq7G?=
+ =?us-ascii?q?N=2F7nzZtUnIfe=2FwZjdv9h2JVvE2XJ48Jvg=3D=3D?=
+MIME-Version: 1.0
+Date: Tue, 10 Dec 2019 08:37:38 +0000 (GMT)
+X-Account-Notification-Type: 28
+Feedback-ID: 28:account-notifier
+X-Notifications: 1c02e67579800000
+Message-ID: <Ec2utUqVLG2DbM4tiVLlag.0@notifications.google.com>
+Subject: =?utf-8?b?w5ZuZW1saSBnw7x2ZW5saWsgdXlhcsSxc8Sx?=
+From: Google <no-reply@accounts.google.com>
+To: mugeasilturk@gmail.com
+Uid: 11790
+Folder: INBOX
+PlainText: [image:
+ =?utf-8?b?R29vZ2xlXUfDvHZlbmxpxJ9pIGTDvMWfw7xrIHV5Z3VsYW1hbGFy?=
+ =?utf-8?b?IGnDp2luIGVyacWfaW0gYXlhcsSx?=
+ =?utf-8?q?_etkinle=C5=9Ftirildimugeasilturk=40gmail=2EcomG=C3=BCvenli=C4=9Fi?=
+ =?utf-8?b?IGTDvMWfw7xrIHV5Z3VsYW1hbGFyYSBlcmnFn2ltIGF5YXLEsQ==?=
+ mugeasilturk@gmail.com
+ =?utf-8?b?R29vZ2xlSGVzYWLEsW7EsXogacOnaW4ga2FwYXTEsWxkxLEuIEJ1?=
+ =?utf-8?b?IGRlxJ9pxZ9pa2xpxJ9pIHNpeiB5YXBtYWTEsXlzYW7EsXogbmU=?=
+ =?utf-8?q?_oldu=C4=9Funukontrol_etmelisiniz=2EEtkinli=C4=9Fi_kontrol?=
+ =?utf-8?q?_et=3Chttps=3A=2F=2Faccounts=2Egoogle=2Ecom=2FAccountChooser=3FEmail=3Dmugeasilt?=
+ =?utf-8?q?urk=40gmail=2Ecom&continue=3Dhttps=3A=2F=2Fmyaccount=2Egoogle=2Ecom=2Falert=2Fnt=2F?=
+ =?utf-8?q?1575967058621=3Frfn%3D28%26rfnc%3D1%26eid%3D9009380551213851745?=
+ =?utf-8?q?%26et%3D0=3EBu_e-posta_sizi_Google_Hesab=C4=B1n=C4=B1z_ve?=
+ hizmetlerinizdeki
+ =?utf-8?b?w7ZuZW1saSBkZcSfacWfaWtsaWtsZXJoYWtrxLFuZGEgYmlsZ2lsZW5kaXJtZWs=?=
+ =?utf-8?b?IGnDp2luIGfDtm5kZXJpbG1pxZ90aXIuwqk=?= 2019 Google LLC, 1600
+ Amphitheatre Parkway, Mountain View, CA 94043, USA
+HtmlBody: <!DOCTYPE html><html lang=en><head><meta name=format-detection
+ content=email=no /><meta name=format-detection content=date=no /><style
+ nonce=S7Ai+LH8sqnqqg+ooYOBMQ>.awl a {color: #FFFFFF; text-decoration: none;}
+ .abml a {color: #000000; font-family:
+ Roboto-Medium,Helvetica,Arial,sans-serif; font-weight: bold; text-decoration:
+ none;} .adgl a {color: rgba(0, 0, 0, 0.87); text-decoration: none;} .afal a
+ {color: #b0b0b0; text-decoration: none;} @media screen and (min-width: 600px)
+ {.v2sp {padding: 6px 30px 0px;} .v2rsp {padding: 0px 10px;}} @media screen
+ and (min-width: 600px) {.mdv2rw {padding: 40px 40px;}} </style><link
+ href=//fonts.googleapis.com/css?family=Google+Sans rel=stylesheet
+ type=text/css /></head><body style="margin: 0; padding: 0;"
+ bgcolor=#FFFFFF><img
+ =?utf-8?q?src=3Dhttps=3A=2F=2Fnotifications=2Egoogleapis=2Ecom=2Femail=2Ft=2FAFG8qyVPwewY?=
+ =?utf-8?q?b4CxQ1q1qwyBtvOuF4BCjp8mRtajSzrh99K0sduyScg3NUJKH9wnGmA6CsJxn?=
+ =?utf-8?q?CC4DlFFd4-cxHWjoivT7DEiPPlWRgZAXNdvxEvbIVcRHe8cc13WWmUaCnUqJ3?=
+ =?utf-8?q?xh=5F471qN8O12AH6jEFsw8qs8UB=5FTfbV=5F46X3imdKFa-LOvjWmBIfBnw6GDLU8?=
+ =?utf-8?q?QaElFZG05nhcza1QHhYDG8T0XiPsCbC12Y6rJIo2mTfJqNJvw84XVZwKhBJZO?=
+ =?utf-8?q?bguCr=5F2xo9gE7xF1bGlT6DnzxejSvgZvgA=2Fa=2Egif?= width=1
+ height=1><table width=100% height=100% style="min-width: 348px;" border=0
+ cellspacing=0 cellpadding=0 lang=en><tr height=32 style="height:
+ 32px;"><td></td></tr><tr align=center><td><div itemscope
+ itemtype=//schema.org/EmailMessage><div itemprop=action itemscope
+ itemtype=//schema.org/ViewAction><link itemprop=url
+ =?utf-8?q?href=3Dhttps=3A=2F=2Faccounts=2Egoogle=2Ecom=2FAccountChooser=3FEmail=3Dmugeasi?=
+ =?utf-8?q?lturk=40gmail=2Ecom&amp=3Bcontinue=3Dhttps=3A=2F=2Fmyaccount=2Egoogle=2Ecom=2Fale?=
+ =?utf-8?q?rt=2Fnt=2F1575967058621=3Frfn%3D28%26rfnc%3D1%26eid%3D9009380551213?=
+ =?utf-8?q?851745%26et%3D0_=2F=3E=3Cmeta_itemprop=3Dname?=
+ =?utf-8?q?_content=3D=22Etkinli=C4=9Fi_=C4=B0ncele=22?= /></div></div><table
+ border=0 cellspacing=0 cellpadding=0 style="padding-bottom: 20px; max-width:
+ 516px; min-width: 220px;"><tr><td width=8 style="width: 8px;"></td><td><div
+ style="border-style: solid; border-width: thin; border-color:#dadce0;
+ border-radius: 8px; padding: 40px 20px;" align=center class=mdv2rw><img
+ =?utf-8?q?src=3Dhttps=3A=2F=2Fwww=2Egstatic=2Ecom=2Fimages=2Fbranding=2Fgooglelogo=2F1x=2Fgoo?=
+ =?utf-8?q?glelogo=5Fcolor=5F74x24dp=2Epng?=
+ =?utf-8?q?_srcset=3D=22https=3A=2F=2Fwww=2Egstatic=2Ecom=2Fimages=2Fbranding=2Fgooglelogo=2F2x?=
+ =?utf-8?q?=2Fgooglelogo=5Fcolor=5F74x24dp=2Epng?= 2x" width=74 height=24
+ aria-hidden=true style="margin-bottom: 16px;" alt=Google><div
+ style="font-family: &#39;Google
+ Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;border-bottom: thin
+ solid #dadce0; color: rgba(0,0,0,0.87); line-height: 32px; padding-bottom:
+ 24px;text-align: center; word-break: break-word;"><div style="font-size:
+ =?utf-8?b?MjRweDsiPkfDvHZlbmxpxJ9pIGTDvMWfw7xrIHV5Z3VsYW1hbGFy?=
+ =?utf-8?q?_i=C3=A7in_eri=C5=9Fim_ayar=C4=B1_etkinle=C5=9Ftirildi=3C=2Fdiv=3E=3Ctable?=
+ align=center style=margin-top:8px;><tr style="line-height: normal;"><td
+ align=right style=padding-right:8px;><img width=20 height=20 style="width:
+ 20px; height: 20px; vertical-align: sub; border-radius: 50%;;"
+ src=https://www.gstatic.com/accountalerts/email/anonymous_profile_photo.png
+ alt=""></td><td><a style="font-family: &#39;Google
+ Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;color:
+ rgba(0,0,0,0.87); font-size: 14px; line-height:
+ 20px;">mugeasilturk@gmail.com</a></td></tr></table></div><div
+ style="font-family: Roboto-Regular,Helvetica,Arial,sans-serif; font-size:
+ 14px; color: rgba(0,0,0,0.87); line-height: 20px;padding-top: 20px;
+ text-align:
+ =?utf-8?b?bGVmdDsiPkfDvHZlbmxpxJ9pIGTDvMWfw7xrIHV5Z3VsYW1hbGFyYQ==?=
+ =?utf-8?q?_eri=C5=9Fim_ayar=C4=B1_mugeasilturk=40gmail=2Ecom_Google?=
+ =?utf-8?b?IEhlc2FixLFuxLF6IGnDp2luIGthcGF0xLFsZMSxLiBCdSBkZcSfacWfaWtsacSfaQ==?=
+ siz =?utf-8?b?eWFwbWFkxLF5c2FuxLF6IG5lIG9sZHXEn3VudQ==?= kontrol
+ etmelisiniz.<div style="padding-top: 32px; text-align: center;"><a
+ =?utf-8?q?href=3Dhttps=3A=2F=2Faccounts=2Egoogle=2Ecom=2FAccountChooser=3FEmail=3Dmugeasi?=
+ =?utf-8?q?lturk=40gmail=2Ecom&amp=3Bcontinue=3Dhttps=3A=2F=2Fmyaccount=2Egoogle=2Ecom=2Fale?=
+ =?utf-8?q?rt=2Fnt=2F1575967058621=3Frfn%3D28%26rfnc%3D1%26eid%3D9009380551213?=
+ =?utf-8?q?851745%26et%3D0?= target=_blank style="font-family: &#39;Google
+ Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif; line-height: 16px;
+ color: #ffffff; font-weight: 400; text-decoration: none;font-size:
+ 14px;display:inline-block;padding: 10px 24px;background-color: #4184F3;
+ border-radius: 5px; min-width: =?utf-8?q?90px=3B=22=3EEtkinli=C4=9Fi?=
+ kontrol et</a></div></div></div><div style="text-align: left;"><div
+ style="font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color:
+ rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px;
+ text-align: center;"><div>Bu e-posta sizi Google
+ =?utf-8?q?Hesab=C4=B1n=C4=B1z_ve_hizmetlerinizdeki?=
+ =?utf-8?q?_=C3=B6nemli_de=C4=9Fi=C5=9Fiklikler_hakk=C4=B1nda_bilgilendirmek?=
+ =?utf-8?b?IGnDp2luIGfDtm5kZXJpbG1pxZ90aXIuPC9kaXY+PGRpdg==?=
+ style="direction: ltr;">&copy; 2019 Google LLC, <a class=afal
+ style="font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color:
+ rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px;
+ text-align: center;">1600 Amphitheatre Parkway, Mountain View, CA 94043,
+ USA</a></div></div></div></td><td width=8 style="width:
+ 8px;"></td></tr></table></td></tr><tr height=32 style="height:
+ 32px;"><td></td></tr></table></body></html>
+Content-Type: multipart/alternative; boundary="=-SBt5xTGnH6YwOMWQDA0IFg=="
+
+--=-SBt5xTGnH6YwOMWQDA0IFg==
+Content-Type: text/plain; delsp=yes; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: base64
+Content-Id: <d0f3b60e-98b4-43db-a342-23a0b6d1e5a7>
+
+W2ltYWdlOiBHb29nbGVdDQpHw7x2ZW5sacSfaSBkw7zFn8O8ayB1eWd1bGFtYWxhciBpw6dp
+biBlcmnFn2ltIGF5YXLEsSBldGtpbmxlxZ90aXJpbGRpDQoNCg0KbXVnZWFzaWx0dXJrQGdt
+YWlsLmNvbQ0KR8O8dmVubGnEn2kgZMO8xZ/DvGsgdXlndWxhbWFsYXJhIGVyacWfaW0gYXlh
+csSxIG11Z2Vhc2lsdHVya0BnbWFpbC5jb20gR29vZ2xlDQpIZXNhYsSxbsSxeiBpw6dpbiBr
+YXBhdMSxbGTEsS4gQnUgZGXEn2nFn2lrbGnEn2kgc2l6IHlhcG1hZMSxeXNhbsSxeiBuZSBv
+bGR1xJ91bnUNCmtvbnRyb2wgZXRtZWxpc2luaXouDQpFdGtpbmxpxJ9pIGtvbnRyb2wgZXQN
+CjxodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20vQWNjb3VudENob29zZXI/RW1haWw9bXVn
+ZWFzaWx0dXJrQGdtYWlsLmNvbSZjb250aW51ZT1odHRwczovL215YWNjb3VudC5nb29nbGUu
+Y29tL2FsZXJ0L250LzE1NzU5NjcwNTg2MjE/cmZuJTNEMjglMjZyZm5jJTNEMSUyNmVpZCUz
+RDkwMDkzODA1NTEyMTM4NTE3NDUlMjZldCUzRDA+DQpCdSBlLXBvc3RhIHNpemkgR29vZ2xl
+IEhlc2FixLFuxLF6IHZlIGhpem1ldGxlcmluaXpkZWtpIMO2bmVtbGkgZGXEn2nFn2lrbGlr
+bGVyDQpoYWtrxLFuZGEgYmlsZ2lsZW5kaXJtZWsgacOnaW4gZ8O2bmRlcmlsbWnFn3Rpci4N
+CsKpIDIwMTkgR29vZ2xlIExMQywgMTYwMCBBbXBoaXRoZWF0cmUgUGFya3dheSwgTW91bnRh
+aW4gVmlldywgQ0EgOTQwNDMsIFVTQQ0K
+
+--=-SBt5xTGnH6YwOMWQDA0IFg==
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Id: <f01fc790-3fdf-4a42-967a-3ab400be37d5>
+
+<!DOCTYPE html><html lang=3Den><head><meta name=3Dformat-detection con=
+tent=3Demail=3Dno /><meta name=3Dformat-detection content=3Ddate=3Dno =
+/><style nonce=3DS7Ai+LH8sqnqqg+ooYOBMQ>.awl a {color: #FFFFFF; text-d=
+ecoration: none;} .abml a {color: #000000; font-family: Roboto-Medium,=
+Helvetica,Arial,sans-serif; font-weight: bold; text-decoration: none;}=
+ .adgl a {color: rgba(0, 0, 0, 0.87); text-decoration: none;} .afal a =
+{color: #b0b0b0; text-decoration: none;} @media screen and (min-width:=
+ 600px) {.v2sp {padding: 6px 30px 0px;} .v2rsp {padding: 0px 10px;}} @=
+media screen and (min-width: 600px) {.mdv2rw {padding: 40px 40px;}} </=
+style><link href=3D//fonts.googleapis.com/css?family=3DGoogle+Sans rel=
+=3Dstylesheet type=3Dtext/css /></head><body style=3D"margin: 0; paddi=
+ng: 0;" bgcolor=3D#FFFFFF><img src=3Dhttps://notifications.googleapis.=
+com/email/t/AFG8qyVPwewYb4CxQ1q1qwyBtvOuF4BCjp8mRtajSzrh99K0sduyScg3NU=
+JKH9wnGmA6CsJxnCC4DlFFd4-cxHWjoivT7DEiPPlWRgZAXNdvxEvbIVcRHe8cc13WWmUa=
+CnUqJ3xh_471qN8O12AH6jEFsw8qs8UB_TfbV_46X3imdKFa-LOvjWmBIfBnw6GDLU8QaE=
+lFZG05nhcza1QHhYDG8T0XiPsCbC12Y6rJIo2mTfJqNJvw84XVZwKhBJZObguCr_2xo9gE=
+7xF1bGlT6DnzxejSvgZvgA/a.gif width=3D1 height=3D1><table width=3D100% =
+height=3D100% style=3D"min-width: 348px;" border=3D0 cellspacing=3D0 c=
+ellpadding=3D0 lang=3Den><tr height=3D32 style=3D"height: 32px;"><td><=
+/td></tr><tr align=3Dcenter><td><div itemscope itemtype=3D//schema.org=
+/EmailMessage><div itemprop=3Daction itemscope itemtype=3D//schema.org=
+/ViewAction><link itemprop=3Durl href=3Dhttps://accounts.google.com/Ac=
+countChooser?Email=3Dmugeasilturk@gmail.com&amp;continue=3Dhttps://mya=
+ccount.google.com/alert/nt/1575967058621?rfn%3D28%26rfnc%3D1%26eid%3D9=
+009380551213851745%26et%3D0 /><meta itemprop=3Dname content=3D"Etkinli=
+=C4=9Fi =C4=B0ncele" /></div></div><table border=3D0 cellspacing=3D0 c=
+ellpadding=3D0 style=3D"padding-bottom: 20px; max-width: 516px; min-wi=
+dth: 220px;"><tr><td width=3D8 style=3D"width: 8px;"></td><td><div sty=
+le=3D"border-style: solid; border-width: thin; border-color:#dadce0; b=
+order-radius: 8px; padding: 40px 20px;" align=3Dcenter class=3Dmdv2rw>=
+<img src=3Dhttps://www.gstatic.com/images/branding/googlelogo/1x/googl=
+elogo_color_74x24dp.png srcset=3D"https://www.gstatic.com/images/brand=
+ing/googlelogo/2x/googlelogo_color_74x24dp.png 2x" width=3D74 height=3D=
+24 aria-hidden=3Dtrue style=3D"margin-bottom: 16px;" alt=3DGoogle><div=
+ style=3D"font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvet=
+ica,Arial,sans-serif;border-bottom: thin solid #dadce0; color: rgba(0,=
+0,0,0.87); line-height: 32px; padding-bottom: 24px;text-align: center;=
+ word-break: break-word;"><div style=3D"font-size: 24px;">G=C3=BCvenli=
+=C4=9Fi d=C3=BC=C5=9F=C3=BCk uygulamalar i=C3=A7in eri=C5=9Fim ayar=C4=
+=B1 etkinle=C5=9Ftirildi</div><table align=3Dcenter style=3Dmargin-top=
+:8px;><tr style=3D"line-height: normal;"><td align=3Dright style=3Dpad=
+ding-right:8px;><img width=3D20 height=3D20 style=3D"width: 20px; heig=
+ht: 20px; vertical-align: sub; border-radius: 50%;;" src=3Dhttps://www=
+.gstatic.com/accountalerts/email/anonymous_profile_photo.png alt=3D"">=
+</td><td><a style=3D"font-family: &#39;Google Sans&#39;,Roboto,RobotoD=
+raft,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.87); font-size: 14=
+px; line-height: 20px;">mugeasilturk@gmail.com</a></td></tr></table></=
+div><div style=3D"font-family: Roboto-Regular,Helvetica,Arial,sans-ser=
+if; font-size: 14px; color: rgba(0,0,0,0.87); line-height: 20px;paddin=
+g-top: 20px; text-align: left;">G=C3=BCvenli=C4=9Fi d=C3=BC=C5=9F=C3=BC=
+k uygulamalara eri=C5=9Fim ayar=C4=B1 mugeasilturk@gmail.com Google He=
+sab=C4=B1n=C4=B1z i=C3=A7in kapat=C4=B1ld=C4=B1. Bu de=C4=9Fi=C5=9Fikl=
+i=C4=9Fi siz yapmad=C4=B1ysan=C4=B1z ne oldu=C4=9Funu kontrol etmelisi=
+niz.<div style=3D"padding-top: 32px; text-align: center;"><a href=3Dht=
+tps://accounts.google.com/AccountChooser?Email=3Dmugeasilturk@gmail.co=
+m&amp;continue=3Dhttps://myaccount.google.com/alert/nt/1575967058621?r=
+fn%3D28%26rfnc%3D1%26eid%3D9009380551213851745%26et%3D0 target=3D_blan=
+k style=3D"font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helve=
+tica,Arial,sans-serif; line-height: 16px; color: #ffffff; font-weight:=
+ 400; text-decoration: none;font-size: 14px;display:inline-block;paddi=
+ng: 10px 24px;background-color: #4184F3; border-radius: 5px; min-width=
+: 90px;">Etkinli=C4=9Fi kontrol et</a></div></div></div><div style=3D"=
+text-align: left;"><div style=3D"font-family: Roboto-Regular,Helvetica=
+,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-heigh=
+t: 18px; padding-top: 12px; text-align: center;"><div>Bu e-posta sizi =
+Google Hesab=C4=B1n=C4=B1z ve hizmetlerinizdeki =C3=B6nemli de=C4=9Fi=C5=
+=9Fiklikler hakk=C4=B1nda bilgilendirmek i=C3=A7in g=C3=B6nderilmi=C5=9F=
+tir.</div><div style=3D"direction: ltr;">&copy; 2019 Google LLC, <a cl=
+ass=3Dafal style=3D"font-family: Roboto-Regular,Helvetica,Arial,sans-s=
+erif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padd=
+ing-top: 12px; text-align: center;">1600 Amphitheatre Parkway, Mountai=
+n View, CA 94043, USA</a></div></div></div></td><td width=3D8 style=3D=
+"width: 8px;"></td></tr></table></td></tr><tr height=3D32 style=3D"hei=
+ght: 32px;"><td></td></tr></table></body></html>
+--=-SBt5xTGnH6YwOMWQDA0IFg==--
