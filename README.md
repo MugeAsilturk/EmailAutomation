@@ -1,2 +1,2 @@
 # EmailAutomation
-Saving email attatchments
+Saving email attatchments with Uipath Studio.
